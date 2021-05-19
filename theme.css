@@ -8,11 +8,11 @@
 
 /* TOP SECTION BACKGROUND COLOR */
 .released-info {
-  background-color: #ee5866 !important; /* change color */
+  background-color: #208df3 !important; /* change color */
 }
 .odometer.odometer-auto-theme .odometer-digit,
 .odometer.odometer-theme-train-station .odometer-digit {
-  color: #ee5866 !important; /* this color must be the same as above */
+  color: #208df3 !important; /* this color must be the same as above */
 }
 /* ----------------------------------------- */
 
