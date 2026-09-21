@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -17,20 +17,20 @@
   <link rel="icon" href="https://released.info/assets/img/technologies/windows/windows.ico" type="image/svg+xml">
   <meta name="description" content="Is Windows 12 Released?">
   <meta name="keywords" content="Microsoft, Windows, release, date, when, os, operating, system">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.windows.released.info" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Is Windows 12 Released?" />
-  <meta property="og:description" content="Windows 12 will be released in 78 days! #released.info" />
+  <meta property="og:description" content="There is no information about Windows 12 release! Still waiting! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/windows/windows-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
   <meta name="twitter:title" content="Is Windows 12 Released?" />
-  <meta name="twitter:description" content="Windows 12 will be released in 78 days! #released.info" />
+  <meta name="twitter:description" content="There is no information about Windows 12 release! Still waiting! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/windows/windows-logo.png" />
 
   <meta name="url" content="https://is.windows.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="78" />
+  <input id="released-days" type="hidden" value="-1" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -78,7 +78,7 @@
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="Windows logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/windows-logo.png&#39;);">
               </span>
             </div>
@@ -86,13 +86,14 @@
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
             
+            
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
+            
             <span>
-              <div class="odometer-content" id="counter">
-                <div id="odometer"></div>
+              <div class="white-box" id="no-information">
+                No information
               </div>
             </span>
-            
-            
 
             <!-- END -->
 
@@ -101,12 +102,12 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Days until Windows 12 is officially released
+              Microsoft has <span class="btn-primary">not announced</span> Windows 12
             </h3>
           </div>
           <div class="col-lg-8">
             <h4 id="highlightTextDescription2">
-              Windows 12 is planned to be released <span class="btn-primary">in 2024</span>
+              Microsoft keeps shipping Windows 11 feature updates - version 26H2 reached the Release Preview Channel on <span class="btn-primary">27th August 2026</span> and is expected later in 2026, version 26H1 came out on 10th February 2026 for Snapdragon X2 devices
             </h4>
           </div>
         </div>
@@ -122,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet Windows 12
+          Meet Windows 11 version 26H2
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                Advanced AI Integration
+                Movable taskbar and the small taskbar return
               </li>
             </ul>
 
             <ul>
               <li>
-                User Interface Overhaul
+                Less Copilot integration in the shell
               </li>
             </ul>
 
             <ul>
               <li>
-                Security Enhancements
+                Legacy dialogs moved to WinUI
               </li>
             </ul>
 
@@ -149,22 +150,27 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Performance Improvements
+                Faster File Explorer
               </li>
             </ul>
             <ul>
               <li>
-                Hybrid Work and Collaboration Tools
+                Optimised for PCs with 8 GB of RAM
+              </li>
+            </ul>
+            <ul>
+              <li>
+                App-specific actions from the taskbar
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://windows12update.com/" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://en.wikipedia.org/wiki/Windows_11_version_history" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="Windows logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/windows-logo2.png&#39;);">
         </span>
       </div>
@@ -181,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Windows 10: New 2021 Complete User Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-Windows-10-New-2021-Complete-User-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Ernest-Westenbury-ebook/dp/B08TRTZRNH?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=54b56634951b17908f5da0146ceba3af&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -195,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Teach Yourself VISUALLY Windows 10"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-Teach-Yourself-VISUALLY-Windows-10.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Paul-McFedries-ebook/dp/B08B48LHTY?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=1f5db1c3f3e7b0eb1860a1e93c291f39&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -209,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: WINDOWS 10 : 2021 User Learning Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-WINDOWS-10-2021-User-Learning-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Allan-Willensburty-ebook/dp/B091MNR5BY?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=bfed72d80147bc2ed94cb1f6cb42ff32&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -223,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Windows 10 Inside Out"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-Windows-10-Inside-Out.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Ed-Bott-ebook/dp/B01MTSCWQO?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=fcf33d4a8b37fe36fbd8b856227c4c7a&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -237,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Windows 10: 2021 Beginner&#39;s Guide"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-Windows-10-2021-Beginner-s-Guide.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Alex-Bilsbury/dp/B08W7DK6RF?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=9585f97391546f705bf68c8460f01c3a&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -251,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Windows 10 In Depth"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/windows/book-Windows-10-In-Depth.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Brian-Knittel-ebook/dp/B079MFB4DB?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=69d3bf1ed20ace330d1c9134bc2a0c0d&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -334,21 +340,12 @@
     intuitive that
     a kid could sit down and do it.<br />
     <br />
-    Windows has a number of interesting features, perhaps one of the most flashy being Windows's answer to Apple’s Siri,
-    Cortana.
-    Cortana is a virtual assistant that is constantly being updated to be able to handle more and more complex tasks,
-    from sending emails,
-    to scheduling things in the native Windows calendar. It can join Teams meetings and work with other Microsoft
-    software seamlessly,
-    as well as look for information in external browsers that Microsoft is not a developer of. Windows computers also
+    Windows has a number of interesting features, perhaps one of the most flashy being Microsoft Copilot, the AI assistant that replaced Cortana (retired in 2023). Copilot can answer questions, draft emails and documents, and works with the other Microsoft software on the machine. Windows computers also
     come with Windows Defender,
     a free antivirus and protection software that is very welcome in today’s cyber landscape, where hacking techniques
     and harmful viruses lurk in most corners of the internet.<br />
     <h3>Releases</h3>
-    The current version of Windows is simply known as Windows 10, which keeps getting updated almost monthly to patch
-    bugs, correct drivers,
-    reinforce security or simply add more features. It is constantly said that there will be no Windows 11, only
-    additions to the current Windows 10.
+    The current version is Windows 11, which keeps getting updated monthly to patch bugs, correct drivers and reinforce security, plus a yearly feature update: version 25H2 came out on 30th September 2025, version 26H1 on 10th February 2026 for Snapdragon X2 devices, and version 26H2 has been in the Release Preview Channel since 27th August 2026. Microsoft has not announced Windows 12.
   </div>
 </div>
       </div>
